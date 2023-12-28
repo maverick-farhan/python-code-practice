@@ -63,7 +63,6 @@ def winner(mark):
 def game_runner():
     fields_count = 0
     while fields_count<=9:
-        printBoard(theBoard)
         playerX()
         printBoard(theBoard)
         playerO()
